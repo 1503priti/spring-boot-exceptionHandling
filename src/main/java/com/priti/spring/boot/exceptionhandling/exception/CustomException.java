@@ -3,6 +3,7 @@ package com.priti.spring.boot.exceptionhandling.exception;
 import org.springframework.http.HttpStatus;
 
 public class CustomException extends RuntimeException {
+
     HttpStatus status;
     String message;
 
